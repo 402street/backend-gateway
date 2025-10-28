@@ -1,0 +1,16 @@
+{
+  "name": "backend-gateway",
+  "version": "1.0.0",
+  "description": "402Street x402 gateway: issues 402 challenges and emits unlocks to devices",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "ws": "^8.17.0"
+  }
+}
